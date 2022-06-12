@@ -10,17 +10,19 @@
 </head>
 
 <body>
-
+    <main>
     <header class="titulo">
         <h1><span> Spaghetti a la boloñesa </span></h1>
-        <p>"La cocina de Brian Villarreal"</p>
+        <p><b> "La cocina de Brian Villarreal"</b></p>
     </header>
 
     <section>
-        <div class="imagen">
+        <div class="pasos">
             <img src="Spaghetti.jpg" alt="spaghetti a la boloñesa">
             <h2>Ingredientes</h2>
-            <h3>Ingredientes para 4 comensales:</h3>
+            <p>
+            <strong>Ingredientes para 4 comensales:</strong>
+            </p>
             <ul>
                 <li>1 bote de tomate triturado</li>
                 <li>500gr de spaghetti</li>
@@ -36,6 +38,7 @@
                 <li>Aceite de oliva extra virgen</li>
                 <li>Sal a gusto</li>
             </ul>
+            <div >
             <h2>Preparacion</h2>
             <ol>
                 <li> Para preparar la salsa boloñesa necesitamos colocar una cacerola en el fuego y calentar en ella un
@@ -54,20 +57,21 @@
                 <li>Mientras vamos cociendo los espaguetis en una cacerola con agua abundante y un poquito de sal al
                     gusto. Cuando estén al dente, los escurrimos y los echamos en la cacerola de salsa boloñesa para que
                     cojan todo el sabor de la carne y del tomate.</li>
-                <p>A la hora de servir los espaguetis boloñesa, podemos añadir un poquito de queso parmesano rallado y,
-                    si nos gusta, albahaca fresca que les da un sabor buenísimo.</p>
             </ol>
-        </div>
+            <p id="consejo">"A la hora de servir los espaguetis boloñesa, podemos añadir un poquito de queso parmesano rallado y,
+                si nos gusta, albahaca fresca que les da un sabor buenísimo."</p>
+         </div>
+    </div>
     </section>
     <div class="formulario">
         <form action="">
             <h1>Suscribite</h1>
-            <p>Recibi en tu email mas recetas </p>
-            <span>
-                <label for="nombre"> Nombre <input type="text" name="nombre"> </label>
-                <label for="email">Correo electronico <input type="text" name="email"> </label>
+            <p><b> Recibi en tu email mas recetas </b></p>
+            
+                <label for="nombre" id="nombre"> Nombre <input type="text" name="nombre"> </label>
+                <label for="email" id="correo">Correo electronico <input type="text" name="email"> </label>
 
-            </span>
+    
             <div>
                 <span class="normas">
                     <label for="acepto"> Leer y aceptar politicas de privacidad
@@ -80,6 +84,7 @@
 
         </form>
     </div>
+</main>
     <footer>
         <span class="pie">Receta Brian Villarreal</span>
         <a href="">Correo electronico</a>

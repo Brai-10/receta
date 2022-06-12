@@ -1,0 +1,73 @@
+
+.titulo { text-align: center;
+
+}
+.titulo h1 { color: rgba(204, 8, 8, 0.815);  margin: 0; font-size: 50px;
+
+}
+.titulo p {font-size: 15px; font-family: sans-serif;
+    margin: 0%; 
+
+}
+body {
+    background-color: rgba(206, 194, 194, 0.849);
+}
+
+
+img {
+    border: 1px black ridge;
+    display: block;
+    margin: auto;
+    width: 50%;
+    }
+
+.pasos h2 {
+    color: rgba(41, 139, 41, 0.945);
+    padding-left: 21rem;
+}
+.pasos p {
+    padding-left: 21rem;
+    margin: 0%;
+}
+
+
+ul {
+   
+     display: block;
+    line-height: 30px;
+    padding-left: 22rem;
+    margin: 0%;
+    } 
+
+ol {
+    line-height: 30px;
+    padding-left: 5rem;
+    font-size: medium;
+   padding-inline-end: 20px;
+   padding-block-end: 0px; 
+   }
+   #consejo {
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       padding-right: 20rem;
+       color: rgba(41, 139, 41, 0.945);
+       }
+
+.formulario {
+    text-align: center;
+    background-color: rgb(190, 42, 42);
+    margin-block-end: 20px;
+    padding-block-end: 20px;
+    border-color: aliceblue;
+    border: 2px;
+    border-radius: 50%;
+}
+#nombre, #correo {
+    font-family: 'Segoe UI';
+    line-height: 50px;
+    
+}
+.normas label {
+    padding-bottom: 100px;
+    line-height: 20px;
+}
