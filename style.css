@@ -32,7 +32,7 @@ img {
 
 
 ul {
-   
+    list-style-type: upper-roman;
      display: block;
     line-height: 30px;
     padding-left: 22rem;
@@ -59,7 +59,7 @@ ol {
     margin-block-end: 20px;
     padding-block-end: 20px;
     border-color: aliceblue;
-    border: 2px;
+    border: 2px, ridge;
     border-radius: 50%;
 }
 #nombre, #correo {
