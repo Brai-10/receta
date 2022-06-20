@@ -17,8 +17,10 @@
         </header>
 
         <section>
-            <div class="pasos">
+             <div class="imagen">
                 <img src="Spaghetti.jpg" alt="spaghetti a la boloñesa">
+                </div>
+                <div class="pasos">
                 <h2>Ingredientes</h2>
                 <p>
                     <strong>Ingredientes para 4 comensales:</strong>
@@ -38,7 +40,7 @@
                     <li>Aceite de oliva extra virgen</li>
                     <li>Sal a gusto</li>
                 </ul>
-                <div>
+                <div class="preparar">
                     <h2>Preparacion</h2>
                     <ol>
                         <li> Para preparar la salsa boloñesa necesitamos colocar una cacerola en el fuego y calentar en
@@ -75,30 +77,26 @@
                         si nos gusta, albahaca fresca que les da un sabor buenísimo."</p>
                 </div>
             </div>
-        </section>
-        <div class="formulario">
-            <form action="">
+        </section> 
+        <section class="formu">
+         <form action="">
                 <h1>Suscribite</h1>
                 <p><b> Recibi en tu email mas recetas </b></p>
 
                 <label for="nombre" id="nombre"> <input type="text" name="nombre" placeholder="Nombre"> </label>
-                <label for="email" id="correo"><input type="text" name="email" placeholder="Correo electronico">
+                <label for="email" id="correo"><input type="email" name="email" placeholder="Correo electronico">
                 </label>
 
-
-                <div>
-                    <span class="normas">
-                        <label for="acepto"> Leer y aceptar politicas de privacidad
+                   <div class="normas">
+                        <span><a href="#" target="_blank"> Leer y aceptar politicas de privacidad </a>
                             <input type="checkbox" name="acepto" id="acepto">
-                            <P>
-                                <input type="submit" value="¡Aceptar!">
-                        </label>
-                    </span>
-                </div>
-
+                         </span>
+                    <P id="boton">
+                    <button value="¡aceptar!"> ¡Aceptar!</button>
+                    </div>
             </form>
-        </div>
-    </main>
+        </main> 
+   </body>
     <footer>
         <span> <b> Mis redes </b></span>
         <ul>
@@ -109,6 +107,5 @@
             </li>   
         </ul>  
     </footer>
-</body>
 
 </html>
